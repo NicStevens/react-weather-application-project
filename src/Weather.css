@@ -1,9 +1,22 @@
 .Weather {
-  border: 1px solid #dadde1;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 16px;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
+  padding: 17px;
+  border-radius: 5px;
+  border: solid white 1px;
+  box-shadow: rgba(182, 221, 241, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: rgb(27, 26, 26);
+  background: linear-gradient(
+    181.2deg,
+    rgb(255, 232, 207) 10.5%,
+    rgb(255, 222, 222) 86.8%
+  );
+}
+
+.Weather .btn {
+  background: #fdfdc4;
+  border: 1px solid #65b7d4;
 }
 
 .Weather h1 {
